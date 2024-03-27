@@ -33,4 +33,28 @@ For CLIENT :
    __It will then send "Greeting client.txt" to server.__
 
 Then, connection ends after file transfer is done.
-   
+
+# Example
+
+Server
+
+ffrhnaa7@ffrhnaa7-VirtualBox:~/UDPsocket$ ./server
+[Success] Socket server found :) 
+[Success] Server socket binding done :) 
+Client: Greeting client.txt
+Server: OK
+Client: Finish
+Server: WellDone
+[Connection ended]
+
+Client
+
+ffrhnaa7@ffrhnaa7-VirtualBox:~/UDPsocket$ ./client
+Write 'Greeting': Greeting
+Enter filename: client.txt
+Server: OK
+Client: Finish
+Server: WellDone
+[Server ended the connection]
+
+
