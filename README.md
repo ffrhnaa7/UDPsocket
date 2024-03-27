@@ -22,15 +22,15 @@ Run steps
 For SERVER : 
 1) ./server
 
-   __You don't have to do anything on the server side__
-   It will automatically create a copy file of after receiving file from CLIENT named 'copy_client.txt'
+   __You don't have to do anything on the server side.__
+   It will automatically create a copy file of after receiving file from CLIENT named 'copy_client.txt'.
 
 For CLIENT :
 1) ./client
 2) When "Write 'Greeting': " pops up, you will have to write -> Greeting
 3) When "Enter filename: " pops up, you will have to write -> client.txt
 
-   __It will then send "Greeting client.txt" to server__
+   __It will then send "Greeting client.txt" to server.__
 
 Then, connection ends after file transfer is done.
    
